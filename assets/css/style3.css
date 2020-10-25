@@ -1,0 +1,586 @@
+* {margin: 0; padding: 0;}
+body {
+	width: 1000px;
+	margin: auto;
+	background-color: #f90;
+	background-image: 
+}
+
+header {
+	width: 1000px;
+	height: 350px;
+}
+/*header img {
+	width: 750px;
+	height: 250px;
+}*/
+
+/*menu {
+	width: 980px;
+	height: 10px;
+	background-color: blue;
+	padding: 10px;
+}
+
+menu li {
+	list-style: none;
+	float: left;
+	margin-right: 50px;
+	margin-top: 0px;
+	color: white; 
+}
+menu li a {
+	text-decoration: none;
+	color: white;
+}
+menu li a:hover {
+	color: black;
+}*/
+#keranjang{
+		margin-top:40px;
+	}
+	#lanjut{
+    	margin-left:450px;
+    }
+    #judul{
+    	text-align:center;
+    }
+    #walper{
+    	margin:0 auto;
+    	width:600px;
+    }
+    h2{
+		color: #4311CF;	
+	}
+	table, th, td {
+    	border: 1px solid black;
+    	border-collapse: collapse;
+	}
+	th, td {
+    	padding: 5px;
+    	text-align: center;
+	}
+	table#t01 tr:nth-child(even) {
+    	background-color: #eee;	
+	}
+	table#t01 tr:nth-child(odd) {
+   		background-color:#fff;
+	}
+	table#t01 th	{
+    	background-color: black;
+    	color: white;
+	}
+	.saveimg{
+		width: 20px;
+		height: 20px;	
+	}
+	table tr td input{
+		width: 40px;
+	}
+	#footer{
+        margin-top:110px;
+        border:#CCC 1px solid;
+        background:black;
+        padding:10px;
+    }
+    .text{
+        color:white;
+        padding:2px;
+        margin:2px;
+        font-weight:600;
+        font-size:16px;
+        margin-left:60px;
+    }
+
+.container{
+	width: 1000px;
+	margin: auto;
+	background-color: white;
+}
+
+.header{
+	padding: 5px;
+	padding-bottom:	0px;
+	background-color: blue;
+	color: white;
+	border-bottom: 0px solid orange;
+}
+
+.header .judul{
+	font-size: 60px;
+	font-weight: bold;
+	text-align: left;
+	margin-left: 100px;
+	font-family: segoe print;
+	height: 50px;
+	line-height: 35px;
+
+}
+
+
+/*Serach*/
+.search-form{
+	margin-top: 10px;
+	float: right;
+	margin-right: 15px;
+	margin-bottom: 10px
+}
+
+input[type=text]{
+	padding: 5px;
+	border: none;
+	font-size: 13px;
+	font-family: sans-serif;
+}
+
+button {
+	float: right;
+	background: green;
+	color: white;
+	border-radius: 0 15px 15px 0;
+	cursor: pointer;
+	position: relative;
+	margin-top: 15px;
+	padding: 7px;
+	font-family: sans-serif;
+	border: none;
+	font-size: 11px;
+}		
+/*header/Menu*/
+ul, li{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.header ul.menu li{
+	display: inline-block;
+	background: black;
+	color: white;
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	padding: 0px 10px 0px 20px;
+	font-size:15px;
+	font-weight: bold;
+	text-align: center;
+	/*float: right;*/
+
+}
+
+.header ul.menu li:hover{
+	background: white;
+	color: green;
+	cursor: pointer;
+}
+
+
+.header ul.subMenu{
+	display: none;
+	margin-left: -15px;
+
+}
+
+.header ul.menu li:hover ul.subMenu{
+	display: block;
+	position: absolute;
+}
+
+.header ul.subMenu li{
+	display: block;
+	width: 170px;
+	text-align: left;
+	border-bottom: 1px solid white;
+}
+
+.header ul.subMenu a{
+	text-decoration: none;
+}
+
+.recommended  img {
+	width: 100%;
+	height: 500px;
+}
+
+
+.pemula {
+	width: 100%;
+	overflow: hidden;
+	background-color: white;
+	margin-top: 5px;
+}
+.pemula .widget  {
+	width: 645px;
+	float: left;
+	background-color: white;
+}
+.pemula .widget .TokoTerbaik h4 {
+	font-size: 50px;
+	font-weight: bold;
+	text-align: left;
+	margin: 5px 5px 5px 20px;
+}
+
+.pemula .widget .TokoTerbaik p {
+	text-align: justify;
+	margin: 5px 5px 5px 10px;
+}
+
+.pemula .widget .JenisBahan h3 {
+	font-size: 50px;
+	font-weight: bold;
+	text-align: left;
+	margin: 5px 5px 5px 20px;
+
+}
+.pemula .widget .JenisBahan p {
+	text-align: justify;
+	margin: 5px 5px 5px 10px;
+}
+.pemula .widget .JenisBahan h4 {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: left;
+	margin: 5px 5px 5px 20px;
+}
+
+.pemula .TentangKami {
+	width: 300px;
+	float: right;
+	padding: 20px;
+}
+
+.pemula .TentangKami h2 {
+	font-weight: bold;
+	color: black;
+	margin: 5px 5px 5px 10px;
+}
+.pemula .TentangKami p {
+	text-align: justify;
+	margin: 5px 5px 5px 10px;
+}
+.pemula .sosmed{
+	width: 315px;
+	height: 100px;
+	border: 1px solid white;
+	margin:auto;
+	float: right;
+	align-content: center; 
+}
+.pemula .sosmed p{
+	text-align: left;
+	font-family: Arial;
+	font-size: 12px;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	margin: 5px 5px 5px 15px;
+}
+.pemula .sosmed img{
+	width: 55px;
+	height: 40px;
+	padding: 15px;
+	margin: auto;
+}
+.kotak{
+		width: auto;
+		/*border: 2px solid white;*/
+		/*border-top: 5px solid orange;*/
+		border-bottom: 5px solid white;
+		margin: auto;
+		padding: 5px;
+		overflow:hidden;
+    }
+
+
+.subKotak{
+	width: 200px;
+	height: 250px;
+	background-color: white;
+	color: black;
+	text-align: bottom;
+	font-size: 30px;
+	margin-left:80px;
+	float: left;
+	border:1px solid;
+	padding: 50px 0;
+}
+
+
+.nama-prodak{
+	font-size:20px;
+	text-align:center;
+}
+   .ukuran-prodak{
+    font-size:20px;
+    text-align:center;
+}
+   .harga-prodak{
+    font-size:20px;
+    text-align:center;
+    color:green;
+}
+   .btnpesan{
+    background-color:#6aadf1;
+    border:0;
+    border-radius:5px;
+    padding:3px 10px;
+    font-size:15px;
+    margin-left:40px;
+}
+
+.subKotak img{
+	width: 200px;
+	height: 150px;
+	margin: auto;
+	float:left;
+
+}
+.subKotak p{
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	/*margin:auto;*/
+	padding: 5px;
+}
+
+.subKotak-home{
+	width: 500px;
+	height: 200px;
+	/*background-color: salmon;*/
+	color: green;
+	text-align: bottom;
+	font-size: 30px;
+	margin: 5px;
+	float: auto;
+}
+.subKotak-home img{
+	width: 225px;
+	height: 200px;
+	margin: auto;
+
+}
+/*halaman-masuk*/
+*{margin: 0px; padding: 0px;}
+.kotak-masuk{
+	width: 300px;
+	height: 450px;
+	border:1px solid orange;
+	margin: 60px auto;
+}
+
+.judul-masuk{
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-weight: bold;
+	background-color: navy;
+	color: white;
+	font-size: 20px;
+}
+
+.masuk{
+	width: 100%;
+	height: 125px;
+	text-align: center;
+}
+
+.masuk i{
+	font-size: 13px;
+	color: red;
+
+}
+.masuk form{
+	margin-top: 40px;
+}
+
+.masuk form input{
+	margin-top: 10px;
+	padding: 0;
+	border:1px solid;
+	width: 250px;
+	height: 30px;
+}
+.masuk-sosmed{
+	width: 200px;
+	height: 100px;
+	border: 1px solid white;
+	margin:auto;
+	/*float: none;*/
+	align-content: center; 
+}
+.masuk-sosmed p{
+	text-align: left;
+	font-family: Arial;
+	font-size: 14px;
+	color: navy;
+	font-weight: bold;
+}
+.masuk-sosmed img{
+	width: 50px;
+	height: 30px;
+	padding: 5px;
+	margin: auto;
+}
+
+
+.sidebar{
+	width: 300px;
+	float: right;
+	padding: 20px;
+}
+
+.sidebar h3{
+	font-weight: bold;
+	color: #666;
+}
+.sidebar img{
+	width: 70px;
+	height: 70px;
+	float: left;
+	padding-right: 10px;
+}
+
+.sidebar img, p{
+	font:12px/18px arial;
+	text-align: justify;
+}
+
+.pemesanan{
+	width: 400px;
+	height: 700px;
+	margin: 65px auto;
+	/*border: 2px solid salmon;*/
+
+}
+
+.pemesanan p{
+	font-size: 17px;
+	color: navy;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: Arial;
+
+}
+
+.pemesanan input{
+	width: 200px;
+	height: 10px;
+	border-bottom: 1px solid black;
+	text-align: left;
+	font-size: 15px;
+	font-family: Arial;
+	float: right;
+}
+
+.pemesanan input[value]{
+	width: 200px;
+	height: 30px;
+	/*border: 1px solid white;*/
+	text-align: center;
+	font-size: 15px;
+	font-family: Arial;
+	float: right;
+}
+
+table{
+	border:1px solid black;
+	width: 700px;
+	text-align: left;
+	font-size: 16px;
+	margin:auto;
+	text-decoration: none;
+}
+ th{
+ 	text-align: center;
+ }
+
+.syarat{
+	width: 700px;
+	margin: auto;
+	padding: 15px;
+	background-color: grey;
+	color: white;
+	border: 1px solid salmon;
+}
+
+.syarat p{
+	font-family: Times New Roman;
+	font-size: 15px;
+	
+}
+
+.syarat h3{
+	font-family: Algeria;
+	font-size: 19px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.syarat h4{
+	font-family: Algeria;
+	font-size: 15px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.syarat h5{
+	font-family: Algeria;
+	font-size: 19px;
+	text-align: center;
+}
+
+.middle{
+	width		: 420px;
+	border		: 1px solid #dedede;
+	padding		: 10px;
+	margin		: 10px;
+	float		: left;
+}
+
+.marquee{
+	width: 100%;
+	height: 25px;
+	line-height: 30px;
+	background-color: black;
+	color: white;
+	font-size: 17px;
+	font-family: Algerian;
+}
+
+.marquee img{
+	width: 20px;
+	height: 15px;
+}
+
+.footer {
+	width: 1000px;
+	margin: auto;
+	background-color: blue;
+	border-top: 10px solid black;
+	
+}
+
+
+.footer .copy{
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	padding: 10px;
+}
+/*clearfix untuk membersihkan float*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
